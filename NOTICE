@@ -1,0 +1,8 @@
+mcpplibs/accesskit-m (mcpp-community) — a C++ module over AccessKit's C bindings.
+
+The wrapper (src/, tools/, tests/) is Apache-2.0 (LICENSE).
+
+AccessKit and accesskit-c: Copyright 2021–2026 The AccessKit Authors,
+dual-licensed MIT (upstream/LICENSE-MIT) or Apache-2.0 (upstream/LICENSE-APACHE);
+https://github.com/AccessKit/accesskit-c. Its prebuilt library and header come
+through compat.accesskit (mcpp-index), from upstream's release archive.

@@ -1,0 +1,42 @@
+# Module wrapper; upstream API preserved. Policy: mcpp-index/docs/mwrap.md.
+[package]
+namespace   = "mcpplibs.mwrap"
+name        = "accesskit"
+version     = "0.23.1"
+description = "AccessKit 0.23.1 C bindings as a C++ module for mcpp (import mcpplibs.mwrap.accesskit;): one accessibility tree served to UIA, NSAccessibility and AT-SPI, over compat.accesskit"
+license     = "Apache-2.0"
+authors     = ["mcpp-community"]
+repo        = "https://github.com/mcpplibs/accesskit-m"
+platforms   = ["linux", "macos", "windows"]
+
+[targets.accesskit]
+kind = "lib"
+
+[build]
+sources = ["src/*.cppm"]
+
+[dependencies]
+compat.accesskit = "0.23.1"
+
+[package.metadata.mwrap]
+upstream-version = "0.23.1"
+
+[[runtime.deploy]]
+from = "LICENSE"
+to   = "licenses/accesskit"
+
+[[runtime.deploy]]
+from = "NOTICE"
+to   = "licenses/accesskit"
+
+[[runtime.deploy]]
+from = "upstream/README.md"
+to   = "licenses/accesskit/upstream"
+
+[[runtime.deploy]]
+from = "upstream/LICENSE-MIT"
+to   = "licenses/accesskit/upstream"
+
+[[runtime.deploy]]
+from = "upstream/LICENSE-APACHE"
+to   = "licenses/accesskit/upstream"

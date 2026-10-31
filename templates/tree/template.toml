@@ -1,0 +1,4 @@
+[template]
+description  = "Build a window and its button as an accessibility tree with import mcpplibs.mwrap.accesskit"
+default      = true
+post_message = "Run `mcpp run`: the tree AccessKit would serve, as its debug view prints it."
