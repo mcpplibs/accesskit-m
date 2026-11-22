@@ -24,7 +24,7 @@ library (it is Rust) for Linux x86_64, macOS arm64 and Windows x86_64.
 ## Getting started
 
 ```sh
-mcpp new hello --template mcpplibs.mwrap.accesskit@0.23.1
+mcpp new hello --template mcpplibs.mwrap.accesskit@0.23.1.1
 cd hello
 mcpp run
 ```

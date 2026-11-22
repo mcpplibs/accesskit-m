@@ -23,7 +23,7 @@ Linux x86_64、macOS arm64、Windows x86_64。
 ## 开始
 
 ```sh
-mcpp new hello --template mcpplibs.mwrap.accesskit@0.23.1
+mcpp new hello --template mcpplibs.mwrap.accesskit@0.23.1.1
 cd hello
 mcpp run
 ```

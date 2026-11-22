@@ -2,7 +2,7 @@
 [package]
 namespace   = "mcpplibs.mwrap"
 name        = "accesskit"
-version     = "0.23.1"
+version     = "0.23.1.1"
 description = "AccessKit 0.23.1 C bindings as a C++ module for mcpp (import mcpplibs.mwrap.accesskit;): one accessibility tree served to UIA, NSAccessibility and AT-SPI, over compat.accesskit"
 license     = "Apache-2.0"
 authors     = ["mcpp-community"]
